@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 
+import com.cts.springJpa.controller.EmployeeController;
 import com.cts.springJpa.dao.EmployeeDao;
 import com.cts.springJpa.entity.Employee;
 
@@ -18,17 +19,18 @@ public class SpringJpaApplication {
 
 	public static void main(String[] args) {
 		ApplicationContext context=SpringApplication.run(SpringJpaApplication.class, args);
-		EmployeeDao dao=(EmployeeDao) context.getBean("employeeDao");
+		EmployeeController controller=(EmployeeController) context.getBean("employeeController");
 		Employee emp=new Employee();
-		
 		emp.setName("Ramesh");
 		emp.setAddress("Bangalore");
 		emp.setDob(new Date());
-		dao.save(emp);
-		List employees=dao.findAll();
-		System.out.println(employees);
+		
+		controller.insertEmployee(emp);
+		
+		List <Employee> employees=controller.findByNameQuery("Ram");
+		System.out.println(employees);	
 	}
-
+	
 	
 
 	 @Bean
