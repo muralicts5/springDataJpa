@@ -21,19 +21,19 @@ public class SpringJpaApplication {
 		ApplicationContext context=SpringApplication.run(SpringJpaApplication.class, args);
 		EmployeeController controller=(EmployeeController) context.getBean("employeeController");
 		Employee emp=new Employee();
-		emp.setName("Ramesh");
+		emp.setName("amesh");
 		emp.setAddress("Bangalore");
 		emp.setDob(new Date());
 		
 		controller.insertEmployee(emp);
 		
-		List <Employee> employees=controller.findByNameQuery("Ram");
+		List <Employee> employees=controller.findByNameQuery("am");
 		System.out.println(employees);	
 	}
 	
 	
 
-	 @Bean
+	// @Bean
 		public CommandLineRunner commandLineRunner(ApplicationContext ctx){
 			return (args) -> {
 				System.out.println("ctx.getBeanDefinitionCount()"+ctx.getBeanDefinitionCount());	

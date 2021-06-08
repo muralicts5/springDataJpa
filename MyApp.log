@@ -1,0 +1,81 @@
+2021-06-08 02:53:45.612  INFO 18110 --- [restartedMain] com.cts.springJpa.SpringJpaApplication   : Starting SpringJpaApplication using Java 11.0.5 on Muralis-MacBook-Air.local with PID 18110 (/Users/murali/Downloads/springJpa/target/classes started by murali in /Users/murali/Downloads/springJpa)
+2021-06-08 02:53:45.615  INFO 18110 --- [restartedMain] com.cts.springJpa.SpringJpaApplication   : No active profile set, falling back to default profiles: default
+2021-06-08 02:53:47.616  INFO 18110 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-08 02:53:47.750  INFO 18110 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-08 02:53:48.109  INFO 18110 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-08 02:53:48.399  INFO 18110 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-08 02:53:48.789  INFO 18110 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-08 02:53:48.875  INFO 18110 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-06-08 02:53:50.151  INFO 18110 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-08 02:53:51.177  INFO 18110 --- [restartedMain] com.cts.springJpa.SpringJpaApplication   : Started SpringJpaApplication in 11.444 seconds (JVM running for 12.725)
+2021-06-08 02:53:51.320  INFO 18110 --- [restartedMain] c.cts.springJpa.service.EmployeeService  : Inside the findByNameQuery
+2021-06-08 02:53:51.321  INFO 18110 --- [restartedMain] c.cts.springJpa.service.EmployeeService  : the input ramesh
+2021-06-08 02:53:51.427  INFO 18110 --- [restartedMain] c.cts.springJpa.service.EmployeeService  : Inside the findByNameQuery
+2021-06-08 02:53:51.428 ERROR 18110 --- [restartedMain] c.cts.springJpa.service.EmployeeService  : No ouput
+2021-06-08 02:53:51.428  INFO 18110 --- [restartedMain] c.cts.springJpa.service.EmployeeService  : exit the findByNameQuery
+2021-06-08 02:54:49.558  INFO 18122 --- [restartedMain] com.cts.springJpa.SpringJpaApplication   : Starting SpringJpaApplication using Java 11.0.5 on Muralis-MacBook-Air.local with PID 18122 (/Users/murali/Downloads/springJpa/target/classes started by murali in /Users/murali/Downloads/springJpa)
+2021-06-08 02:54:49.562  INFO 18122 --- [restartedMain] com.cts.springJpa.SpringJpaApplication   : No active profile set, falling back to default profiles: default
+2021-06-08 02:54:49.666  INFO 18122 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-08 02:54:50.559  INFO 18122 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-08 02:54:50.678  INFO 18122 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 1 JPA repository interfaces.
+2021-06-08 02:54:51.463  INFO 18122 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-08 02:54:51.593  INFO 18122 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-08 02:54:51.908  INFO 18122 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-08 02:54:52.157  INFO 18122 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-08 02:54:52.532  INFO 18122 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-08 02:54:52.603  INFO 18122 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-06-08 02:54:53.752  INFO 18122 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-08 02:54:53.772  INFO 18122 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-08 02:54:54.778  INFO 18122 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-08 02:54:54.807  INFO 18122 --- [restartedMain] com.cts.springJpa.SpringJpaApplication   : Started SpringJpaApplication in 10.985 seconds (JVM running for 12.133)
+2021-06-08 02:54:54.810  INFO 18122 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-08 02:54:54.818  INFO 18122 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-08 02:54:54.983  INFO 18122 --- [restartedMain] c.cts.springJpa.service.EmployeeService  : Inside the findByNameQuery
+2021-06-08 02:54:54.984  INFO 18122 --- [restartedMain] c.cts.springJpa.service.EmployeeService  : the input ramesh
+2021-06-08 02:54:55.090  INFO 18122 --- [restartedMain] c.cts.springJpa.service.EmployeeService  : Inside the findByNameQuery
+2021-06-08 02:54:55.091 ERROR 18122 --- [restartedMain] c.cts.springJpa.service.EmployeeService  : No ouput
+2021-06-08 02:54:55.091  INFO 18122 --- [restartedMain] c.cts.springJpa.service.EmployeeService  : exit the findByNameQuery
+2021-06-08 02:57:14.076  INFO 18157 --- [restartedMain] com.cts.springJpa.SpringJpaApplication   : Starting SpringJpaApplication using Java 11.0.5 on Muralis-MacBook-Air.local with PID 18157 (/Users/murali/Downloads/springJpa/target/classes started by murali in /Users/murali/Downloads/springJpa)
+2021-06-08 02:57:14.081  INFO 18157 --- [restartedMain] com.cts.springJpa.SpringJpaApplication   : No active profile set, falling back to default profiles: default
+2021-06-08 02:57:14.195  INFO 18157 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-08 02:57:15.188  INFO 18157 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-08 02:57:15.311  INFO 18157 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 1 JPA repository interfaces.
+2021-06-08 02:57:16.381  INFO 18157 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-08 02:57:16.533  INFO 18157 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-08 02:57:16.948  INFO 18157 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-08 02:57:17.267  INFO 18157 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-08 02:57:17.663  INFO 18157 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-08 02:57:17.747  INFO 18157 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-06-08 02:57:19.033  INFO 18157 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-08 02:57:19.056  INFO 18157 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-08 02:57:20.094  INFO 18157 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-08 02:57:20.117  INFO 18157 --- [restartedMain] com.cts.springJpa.SpringJpaApplication   : Started SpringJpaApplication in 11.938 seconds (JVM running for 13.188)
+2021-06-08 02:57:20.119  INFO 18157 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-08 02:57:20.125  INFO 18157 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-08 02:57:20.233  INFO 18157 --- [restartedMain] c.cts.springJpa.service.EmployeeService  : Inside the findByNameQuery
+2021-06-08 02:57:20.233  INFO 18157 --- [restartedMain] c.cts.springJpa.service.EmployeeService  : the input ramesh
+2021-06-08 02:57:20.328  INFO 18157 --- [restartedMain] c.cts.springJpa.service.EmployeeService  : Inside the findByNameQuery
+2021-06-08 02:57:20.331 ERROR 18157 --- [restartedMain] c.cts.springJpa.service.EmployeeService  : No ouput
+2021-06-08 02:57:20.331  INFO 18157 --- [restartedMain] c.cts.springJpa.service.EmployeeService  : exit the findByNameQuery
+2021-06-08 02:59:11,057 INFO com.cts.springJpa.SpringJpaApplication [restartedMain] Starting SpringJpaApplication using Java 11.0.5 on Muralis-MacBook-Air.local with PID 18200 (/Users/murali/Downloads/springJpa/target/classes started by murali in /Users/murali/Downloads/springJpa)
+2021-06-08 02:59:11,062 INFO com.cts.springJpa.SpringJpaApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-06-08 02:59:11,172 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-08 02:59:12,175 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-08 02:59:12,294 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interfaces.
+2021-06-08 02:59:13,110 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-08 02:59:13,264 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-08 02:59:13,616 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-08 02:59:13,889 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-06-08 02:59:14,281 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-06-08 02:59:14,367 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-06-08 02:59:15,638 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-08 02:59:15,665 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-08 02:59:16,796 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-06-08 02:59:16,821 INFO com.cts.springJpa.SpringJpaApplication [restartedMain] Started SpringJpaApplication in 11.658 seconds (JVM running for 13.338)
+2021-06-08 02:59:16,823 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state LivenessState changed to CORRECT
+2021-06-08 02:59:16,831 INFO org.springframework.boot.availability.ApplicationAvailabilityBean [restartedMain] Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-08 02:59:16,952 INFO com.cts.springJpa.service.EmployeeService [restartedMain] Inside the findByNameQuery
+2021-06-08 02:59:16,953 INFO com.cts.springJpa.service.EmployeeService [restartedMain] the input ramesh
+2021-06-08 02:59:17,035 INFO com.cts.springJpa.service.EmployeeService [restartedMain] Inside the findByNameQuery
+2021-06-08 02:59:17,035 ERROR com.cts.springJpa.service.EmployeeService [restartedMain] No ouput
+2021-06-08 02:59:17,035 INFO com.cts.springJpa.service.EmployeeService [restartedMain] exit the findByNameQuery
